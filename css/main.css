@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300&subset=cyrillic,latin);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+	background-color: ffffff;
+	color:7e8c9d;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+	width: 960px;
+	height: calc(100vh - 80px);
+    margin: auto;
+}
+
+
+
+header{
+	background-color: #639adf;
+	text-transform: uppercase; 	
+	font-weight: 300;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: 46% 50%;
+	min-height: 73px; 
+
+}
+
+nav .top-menu a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 73px;
+}
+
+nav .top-menu a:hover{
+	color: #ffffff;
+	border-top: 1px dotted rgba(255,255,255, 0.5);
+}
+
+nav .top-menu li{
+		list-style-type: none;
+		list-style-position: inside;
+		display: inline-block;
+}
+
+.top-menu {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	margin-left: 57px;
+}
+
+nav li:nth-child(odd):after{
+	content: " |";
+	font-size: 20px;
+	color: #ffffff;
+	padding:0 10px;
+}
+
+nav .top-menu li:nth-child(3){
+	margin-left: 373px;
+}
+
+section{
+	margin-top: 15px; 
+	float: left;
+	width: 625px;
+	min-height: 450px;
+	background-color: #eee;
+}
+aside{
+	margin-top: 15px; 
+	margin-left:640px;
+	min-height: 450px;
+	background-color: #eee;
+}
+footer {
+	margin-top: 15px;
+    background-color: #a1a1a1;
+    color: #ebebeb;
+    font-size: 11px;
+}
+
+#footer {
+    width: 960px;
+    margin: auto;
+    padding: 10px 0;
+	height: 80px;
+	background-image: url(../img/logo-f.png);
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	opacity: 0.5;
+}
