@@ -311,3 +311,53 @@ aside .recent-messenge:last-of-type{
 .recent-messenge>img:hover{
 	opacity: 0.9;
 }
+
+form{
+	position: relative;
+}
+.messenge-input{
+	min-height: 125px;
+	background-color: #e9f3ff;
+	border-top: 4px solid #b1ccec;
+	margin: 30px 15px 15px 15px;
+
+}
+.messenge-input .iam{
+	border-radius: 50%;
+	display: inline-block;
+	float: left;
+	margin: 20px 15px;
+}
+
+.messenge-input .recipient{
+	border-radius: 50%;
+	display: inline-block;
+	float: right;
+	margin: 20px 15px;
+}
+
+.new-messenge{
+	width: 389px;
+	min-height: 84px;
+	resize:vertical;
+	border: 1 solid #ced9ea;
+	padding: 8px 8px;
+	margin: 15px 0;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+}
+
+.send-messenge:after{
+	content: "Press ENTER to submit";
+	font-size: 10px;
+	color: #7fda8e;
+	left: 385px;
+	top: 20px;
+	position: absolute;
+	z-index: 2;
+}
+
+input[type="submit"]{
+	visibility: hidden;
+	position: absolute;
+}
